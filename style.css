@@ -1,0 +1,238 @@
+.pagina1 {
+  margin: 0; 
+  padding: 0;
+  background-color: #f5fbff;
+}
+
+header{
+  background-color: #162A53;
+  color: white;
+  display: flex; /*flex: layout flexível*/
+  justify-content: space-between; /*space-between: espaçamento entre os elementos*/
+  align-items: center; 
+  padding: 1.2rem;
+}
+header .titulo {
+  margin: 0; 
+  font-size: 45px;
+  margin-left: 10px; 
+}
+
+header nav a{ 
+  color: white;
+  text-decoration: none; /*tira a linha debaixo do link*/
+  margin-left: 20px;          
+  font-size: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+} 
+.frase {
+  background-color: #162A53;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column; /*coloca os elementos um abaixo do outro*/
+  padding: 4rem;
+  align-items: center;
+  animation: slideDown 1s ease-in; /*slideDown: nome animação, 1s:tempo, ease-out:tipo animação*/
+}                                  /*ease-out: começa devagar e acelera, ease-in: começa rápido e desacelera, ease-in-out: começa e termina devagar, acelerando no meio*/
+
+@keyframes slideDown { /*@keyframes: define a animação*/
+  from { /*from: como inicia*/
+    transform: translateY(-100%); /*começa a cima da tela*/
+    opacity: 0; /*começa transparente*/
+  }
+  to { /*to: como termina*/
+    transform: translateY(0); /*termina no lugar certo*/
+    opacity: 1; 
+  }
+}
+.frase h2{
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.frase p {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 0; 
+}
+.frase a { 
+  background: #8db1d3;
+  color: white;
+  padding: 12px 30px; 
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold; 
+  margin-top: 1.2rem;
+  display: inline-block; 
+  cursor: pointer;
+}
+
+.frase a:hover {
+  transform: scale(1.05);
+}
+
+section {
+  text-align: center;
+  font-size: 18px;
+  padding: 1rem;
+}
+main {
+  display: flex;
+  justify-content: center; /*centraliza o conteúdo*/
+}
+
+table{
+  width: 100%; /*largura da tabela*/
+  max-width: 865px; /*largura máxima*/
+  text-align: left; 
+  background: #ddebf3;
+  border-radius: 20px;
+  margin-top: 2.5rem;
+}
+table:hover{ /*efeito de zoom*/
+  transform: scale(1.05); 
+}
+th h3 {
+  text-align: center;         
+  font-size: 35px;
+  margin: 10px 0;
+}
+td {
+  padding: 10px;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+td img {
+  margin: 0; /*centraliza a imagem*/
+}
+.geracoes{
+  background-color: #162A53;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 0.5px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.botoes {
+  display: flex;
+  justify-content:center; /*centraliza os botões*/
+}
+.botoes button{
+  background-color: #34568B;
+  color: white;
+  border: none; /*tira a borda do botão*/
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 0 15px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+.botoes button:hover{ /*efeito de zoom*/
+  transform: scale(1.1); /*tamanho do zoom*/
+}
+footer {
+  background-color: #162A53;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-size: 18px;
+}
+/*----------------------------------------PG2---------------------------------------------*/
+.pagina2 {
+  margin: 0;
+  padding: 0; 
+  background-color: #f5fbff;
+} 
+.header2 {
+  background-color: #162A53;
+  color: white;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 1.2rem;
+  margin-bottom: 10px;
+}
+.header2 h1 { 
+  margin: 0;
+  font-size: 25px; 
+  margin-left: 10px;
+} 
+.frase2 {
+  background-color: #162A53;
+  color: white;
+  display: flex;
+  text-align: center; 
+  flex-direction: column; 
+  padding: 1rem;
+  animation: slideDown 1s ease-out; /*slideDown: nome animação, 1s:tempo, ease-out:tipo animação*/
+}                                  /*ease-out: começa devagar e acelera, ease-in: começa rápido e desacelera, ease-in-out: começa e termina devagar, acelerando no meio*/
+
+
+.frase2 h2{
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.frase2 p {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tabelas { 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 20px;
+}
+.table1 {
+  background-color: #c9dff3; 
+  border-radius: 20px; 
+  font-size: 20px; 
+  margin-bottom: 2.5rem; 
+  width: 100%;  /*largura da tabela*/
+  max-width: 850px; /*largura máxima*/
+  text-align: left; 
+  padding-left: 20px; 
+  padding-right: 20px;
+  padding-bottom: 15px; 
+  border-left: 9px solid #162A53;
+  font-weight: 500;
+  font-family: 'Georgia', serif;
+} 
+.titulo1 {
+  color: black; 
+  font-size: 20px; 
+  padding: 0.8rem; 
+  font-weight: 900;
+} 
+.table2 { 
+  background-color: #c9dff3;
+  border-radius: 20px; 
+  font-size: 20px; 
+  margin-bottom: 2.5rem;
+  width: 100%; 
+  max-width: 850px; 
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  border-right: 9px solid #162A53;
+  font-weight: 500;
+}
+.footer2 {
+  background-color: #162A53; 
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  font-size: 18px; 
+}
+.table1, .table2, .header2, table{  /*efeito de sombra*/
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25); /*box-shadow: horizontal vertical, desfoque, espalhamento, cor*/
+}                                            /*rgba(red, green, blue, tranparencia)*/
+.table1 img, .table2 img {
+  border-radius: 20px;  
+}
