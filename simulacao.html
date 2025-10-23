@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Feedback</title>
+</head>
+<body class="formulario">
+
+
+    <header class="header1">
+        <h1 class="titulo">RetroTech</h1>  
+        <nav>
+          <a href="tempo.html">Linha do tempo</a>
+          <a href="index.html">RetroTech</a>
+          <a href="index.html">← Voltar</a>
+        </nav>
+    </header>
+    <section class="form">
+        <h3 class="formtitulo">Obrigado pelo seu feedback!</h3>
+        <p id="mostrar"></p>
+    <script>
+        const nome = localStorage.getItem("nome");
+        const email = localStorage.getItem("email");
+        const mensagem = localStorage.getItem("mensagem");
+
+        if (nome && email && mensagem) {
+            document.getElementById("mostrar").innerText =
+             "Olá, " + nome + "! \n\n" +
+             "E-mail: " + email + "\n" +
+             "Feedback: " + mensagem;
+        } else {
+            document.getElementById("mostrar").innerText =
+             "Nenhum feedback encontrado. Volte e preencha o formulário!";
+        }
+    </script>
+    </section>
+</body>
+    <footer class="footer3">
+        <p>Desenvolvido por Maria Clara Ferreira e Raiane Cordeiro da Cruz</p>
+    </footer>
+</html>

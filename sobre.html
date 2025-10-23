@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+<body>
+
+    <header class="header1">
+        <h1 class="titulo">RetroTech</h1>
+        <nav>
+          <a href="tempo.html">Linha do tempo</a>
+          <a href="index.html">RetroTech</a>
+          <a href="index.html">← Voltar</a>
+        </nav>
+    </header>
+    <table class="contato">
+        <tr>
+            <th colspan="2" class="sobre">Bem-vindo à RetroTech, o museu virtual dedicado à história da computação!</th>
+        </tr>
+        <tr>
+            <td>
+                <p>Nossa missão é preservar e compartilhar a trajetória da tecnologia, revelando como ideias pioneiras e invenções revolucionárias transformaram o mundo em que vivemos. Aqui, cada clique é uma viagem no tempo: dos primeiros dispositivos, passando pelos imensos computadores que ocuparam salas inteiras, até chegarmos aos aparelhos compactos e inteligentes que hoje cabem na palma da mão.<br>
+        Na RetroTech, você encontra uma linha do tempo interativa que destaca os principais marcos da evolução digital. Cada etapa traz não apenas informações técnicas, mas também o contexto histórico, cultural e social que influenciou e foi influenciado pela tecnologia. Assim, é possível compreender não só como as máquinas funcionavam, mas também como elas mudaram a forma de trabalhar, estudar, se comunicar e se divertir.<br>
+        Mais do que um museu, a RetroTech é um espaço de aprendizado e inspiração. Convidamos você a explorar, descobrir curiosidades e refletir sobre o impacto da computação no presente e no futuro. Afinal, conhecer o passado da tecnologia é também abrir caminhos para novas inovações.<br>
+        Seja bem-vindo e compartilhe seu feedback e, se quiser, contribua para irriquecer nossa linha do tempo.</p>
+            </td>
+            <td>
+                <form id="meuform">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit" class="botao">Enviar</button>
+                 </form>
+            </td>
+        </tr>
+    </table>
+    <script>
+        const form = document.getElementById("meuform");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+        const nome = document.getElementById('nome').value;
+        const email = document.getElementById('email').value;
+        const mensagem = document.getElementById('mensagem').value;
+
+        localStorage.setItem("nome", nome);
+        localStorage.setItem("email", email);
+        localStorage.setItem("mensagem", mensagem);
+        // Redirecionar para simulacao.html
+        window.location.href = "simulacao.html";
+     });
+</script>
+</body>
+    <footer class="footer2">
+        <p>Desenvolvido por Maria Clara Ferreira e Raiane Cordeiro da Cruz</p>
+    </footer>
+</html>
