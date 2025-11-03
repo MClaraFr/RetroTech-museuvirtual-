@@ -6,12 +6,21 @@
   <link rel="stylesheet" href="style.css">
   <title>Formulário</title>
 </head>
+<<<<<<< HEAD
 <body class="formulario">
+=======
+<body>
+
+>>>>>>> primary
     <header class="header1">
         <h1 class="titulo">RetroTech</h1>
         <nav>
           <a href="tempo.html">Linha do tempo</a>
           <a href="index.html">RetroTech</a>
+<<<<<<< HEAD
+=======
+          <a href="index.html">← Voltar</a>
+>>>>>>> primary
         </nav>
     </header>
     <table class="contato">
@@ -26,7 +35,11 @@
         Seja bem-vindo e compartilhe seu feedback e, se quiser, contribua para irriquecer nossa linha do tempo.</p>
             </td>
             <td>
+<<<<<<< HEAD
                 <form action="#" method="post">
+=======
+                <form id="meuform">
+>>>>>>> primary
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required>
 
@@ -36,11 +49,35 @@
                     <label for="mensagem">Mensagem:</label>
                     <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
+<<<<<<< HEAD
                     <a href="simulacao.html" class="botao">Enviar</a>
+=======
+                    <button type="submit" class="botao">Enviar</button>
+>>>>>>> primary
                  </form>
             </td>
         </tr>
     </table>
+<<<<<<< HEAD
+=======
+    <script>
+        const form = document.getElementById("meuform");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+        const nome = document.getElementById('nome').value;
+        const email = document.getElementById('email').value;
+        const mensagem = document.getElementById('mensagem').value;
+
+        localStorage.setItem("nome", nome);
+        localStorage.setItem("email", email);
+        localStorage.setItem("mensagem", mensagem);
+        // Redirecionar para simulacao.html
+        window.location.href = "simulacao.html";
+     });
+</script>
+>>>>>>> primary
 </body>
     <footer class="footer2">
         <p>Desenvolvido por Maria Clara Ferreira e Raiane Cordeiro da Cruz</p>

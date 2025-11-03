@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 .pagina1 {
+=======
+body {
+>>>>>>> primary
   margin: 0; 
   padding: 0;
   background-color: #f5fbff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> primary
 header{
   background-color: #162A53;
   color: white;
@@ -36,7 +43,10 @@ header nav a{
   align-items: center;
   animation: slideDown 1s ease-in; /*slideDown: nome animação, 1s:tempo, ease-out:tipo animação*/
 }                                  /*ease-out: começa devagar e acelera, ease-in: começa rápido e desacelera, ease-in-out: começa e termina devagar, acelerando no meio*/
+<<<<<<< HEAD
 
+=======
+>>>>>>> primary
 @keyframes slideDown { /*@keyframes: define a animação*/
   from { /*from: como inicia*/
     transform: translateY(-100%); /*começa a cima da tela*/
@@ -72,7 +82,10 @@ header nav a{
 .frase a:hover {
   transform: scale(1.05);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> primary
 section {
   text-align: center;
   font-size: 18px;
@@ -82,7 +95,10 @@ main {
   display: flex;
   justify-content: center; /*centraliza o conteúdo*/
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> primary
 .tablepg1{
   width: 100%; /*largura da tabela*/
   max-width: 865px; /*largura máxima*/
@@ -91,6 +107,15 @@ main {
   border-radius: 20px;
   margin-top: 2.5rem;
 }
+<<<<<<< HEAD
+=======
+.tablepg1{  /*efeito de sombra*/
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25); /*box-shadow: horizontal vertical, desfoque, espalhamento, cor*/
+}                                            /*rgba(red, green, blue, tranparencia)*/
+.table1 img{ 
+  border-radius: 20px;  
+}
+>>>>>>> primary
 .tablepg1:hover{ /*efeito de zoom*/
   transform: scale(1.05); 
 }
@@ -130,6 +155,10 @@ td img {
   margin: 0 15px;
   cursor: pointer;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+<<<<<<< HEAD
+=======
+  margin-bottom: 3rem;
+>>>>>>> primary
 }
 .botoes button:hover{ /*efeito de zoom*/
   transform: scale(1.1); /*tamanho do zoom*/
@@ -141,6 +170,7 @@ footer {
   color: white;
   font-size: 18px;
 }
+<<<<<<< HEAD
 /*----------------------------------------PG2---------------------------------------------*/
 .pagina2 {
   margin: 0;
@@ -161,6 +191,18 @@ footer {
   font-size: 25px; 
   margin-left: 10px;
 } 
+=======
+
+
+
+/*----------------------------------------PG2---------------------------------------------*/
+.body2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+>>>>>>> primary
 .frase2 {
   background-color: #162A53;
   color: white;
@@ -171,7 +213,10 @@ footer {
   animation: slideDown 1s ease-out; /*slideDown: nome animação, 1s:tempo, ease-out:tipo animação*/
 }                                  /*ease-out: começa devagar e acelera, ease-in: começa rápido e desacelera, ease-in-out: começa e termina devagar, acelerando no meio*/
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> primary
 .frase2 h2{
   margin-bottom: 2px;
   margin-top: 0;
@@ -182,6 +227,7 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
 }
+<<<<<<< HEAD
 .tabelas { 
   display: flex;
   flex-direction: column;
@@ -223,6 +269,73 @@ footer {
   border-right: 9px solid #162A53;
   font-weight: 500;
 }
+=======
+/*------------CARDS GERAÇÃO--------------*/
+.geracao{
+  background-color: #cde0f1;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.geracao:hover {
+  transform: scale(1.02);
+}
+
+/* Esconde o conteúdo */
+.geracao p, .geracao img {
+  display: none;
+}
+
+/* Mostra quando clicado */
+.geracao.ativo p, .geracao.ativo img {
+  display: block;
+}
+/* ----------LINHA DO TEMPO---------- */
+.linhatempo {
+  display: flex;
+  align-items: flex-start;
+  margin: 50px auto;
+  width: 90%;
+  gap: 20px;
+  flex: 1;
+}
+
+.linhatempo h2 {
+  background-color: #0b2047;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 24px;
+  width: 220px;
+  min-width: 220px;
+  text-align: center;
+  line-height: 2.1;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: flex-start;
+}
+
+.geracao.ativo {
+  animation: aparecer 0.4s ease-in;
+}
+
+@keyframes aparecer {
+  from {
+    transform: scale(0.98);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+>>>>>>> primary
 .footer2 {
   background-color: #162A53; 
   text-align: center;
@@ -230,6 +343,7 @@ footer {
   color: white;
   font-size: 18px; 
 }
+<<<<<<< HEAD
 .table1, .table2, .header2, .tablepg1{  /*efeito de sombra*/
   box-shadow: 0 4px 10px rgba(0,0,0,0.25); /*box-shadow: horizontal vertical, desfoque, espalhamento, cor*/
 }                                            /*rgba(red, green, blue, tranparencia)*/
@@ -242,6 +356,10 @@ footer {
   padding: 0;
   background-color: #f5fbff;
 }
+=======
+
+/*----------------------------------------FORMULARIO---------------------------------------------*/
+>>>>>>> primary
 .contato form {
   display: flex;
   flex-direction: column;
@@ -261,7 +379,11 @@ footer {
   margin-top: 1.5rem;
   color: white;
   cursor: pointer;
+<<<<<<< HEAD
   width: 350px;
+=======
+  width: 378px;
+>>>>>>> primary
   text-align: center;
   text-decoration: none;
   font-size: 18px;
@@ -289,7 +411,49 @@ footer {
 }
 
 /*----------------------------------------SIMULAÇÃO---------------------------------------------*/
+<<<<<<< HEAD
 .footer4 {
+=======
+#mostrar {
+  text-align: left;
+  white-space: pre-line;
+  margin: 30px;
+  font-weight: 600;
+}
+
+
+.formtitulo{
+  display: flex;
+  align-items: left;
+  margin-left: 4rem;
+  margin-top: 2px;
+  font-family: 'Georgia', serif;
+  font-size: 20px;
+  color: #0b2047;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #e1ecf2;
+  border: 2px solid #1b3660;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 50px auto;
+  width: 70%;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  animation: subirform 1s ease-in-out;
+}
+
+@keyframes subirform {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.footer3 {
+>>>>>>> primary
   background-color: #162A53; 
   text-align: center;
   padding: 0.5rem;
@@ -299,6 +463,7 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
+<<<<<<< HEAD
 }
 .linha {
   display: flex;
@@ -342,4 +507,6 @@ footer {
   margin-top: 2rem;
   margin-left: 1rem;
   background-color: #ddebf3;
+=======
+>>>>>>> primary
 }

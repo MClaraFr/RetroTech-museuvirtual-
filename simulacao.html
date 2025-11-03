@@ -7,15 +7,25 @@
   <title>Feedback</title>
 </head>
 <body class="formulario">
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> primary
     <header class="header1">
         <h1 class="titulo">RetroTech</h1>  
         <nav>
           <a href="tempo.html">Linha do tempo</a>
           <a href="index.html">RetroTech</a>
+<<<<<<< HEAD
+=======
+          <a href="index.html">← Voltar</a>
+>>>>>>> primary
         </nav>
     </header>
     <section class="form">
         <h3 class="formtitulo">Obrigado pelo seu feedback!</h3>
+<<<<<<< HEAD
         <div class="linha">
         <h5>Nome:</h5>
         <P>Laura Menezes</P>
@@ -34,6 +44,27 @@
     </section>
 </body>
     <footer class="footer4">
+=======
+        <p id="mostrar"></p>
+    <script>
+        const nome = localStorage.getItem("nome");
+        const email = localStorage.getItem("email");
+        const mensagem = localStorage.getItem("mensagem");
+
+        if (nome && email && mensagem) {
+            document.getElementById("mostrar").innerText =
+             "Olá, " + nome + "! \n\n" +
+             "E-mail: " + email + "\n" +
+             "Feedback: " + mensagem;
+        } else {
+            document.getElementById("mostrar").innerText =
+             "Nenhum feedback encontrado. Volte e preencha o formulário!";
+        }
+    </script>
+    </section>
+</body>
+    <footer class="footer3">
+>>>>>>> primary
         <p>Desenvolvido por Maria Clara Ferreira e Raiane Cordeiro da Cruz</p>
     </footer>
 </html>
