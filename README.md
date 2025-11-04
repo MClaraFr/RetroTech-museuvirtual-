@@ -56,29 +56,28 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
 
 ---
 
-<h3 align="center">✨ “Um bom design é aquele que o usuário nem percebe, apenas sinta que tudo faz sentido.” ✨</h3>
+<h3 align="center">
+  ✨ “Um bom design é aquele que o usuário nem percebe, apenas sinta que tudo faz sentido.” ✨
+</h3>
 
-<p align="center">
+<div style="text-align: center; margin-top: 20px;">
+  
   <!-- Instagram Maria -->
-  <a href="https://www.instagram.com/_mariaclarafr_?igsh=MWFlZnlxN2JwaTF5MQ==" target="_blank">
-    <img 
-      alt="Instagram Maria" 
-      src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
-    /><br>
-    <span style="color:white; font-family:sans-serif;">Maria Clara</span>
-  </a>
-
-  &nbsp;&nbsp;&nbsp;
+  <span style="display: inline-block; margin: 10px;">
+    <a href="https://www.instagram.com/_mariaclarafr_?igsh=MWFlZnlxN2JwaTF5MQ==" target="_blank">
+      <img 
+        alt="Instagram Maria" 
+        src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
+      />
+    </a>
+    <br>
+    <span style="color: white; font-family: sans-serif;">Maria Clara</span>
+  </span>
 
   <!-- Instagram Raiane -->
-  <a href="https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky" target="_blank">
-    <img 
-      alt="Instagram Raiane" 
-      src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
-    /><br>
-    <span style="color:white; font-family:sans-serif;">Raiane Cruz</span>
-  </a>
+  <span style="display: inline-block; margin: 10px;">
+    <a href="https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky" target="_blank">
+      <img 
+        alt="Instagram Raiane" 
+        src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&log
 
-  &nbsp;&nbsp;&nbsp;
-
-  
