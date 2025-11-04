@@ -79,5 +79,10 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
     <a href="https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky" target="_blank">
       <img 
         alt="Instagram Raiane" 
-        src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&log
+        src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
+      />
+    </a>
+    <br>
+    <span style="color: white; font-family: sans-serif;">Raiane Cruz</span>
+  </span>
 
