@@ -4,7 +4,9 @@
   ✨ Desenvolvido por <strong>Maria Clara e Raiane Cordeiro</strong> <br>
   📚 Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> <br>
   🎓 Projeto acadêmico da disciplina <strong>Linguagem de Programação para Web (LPPW)</strong>
-</p>---
+</p>
+
+---
 
 💡 Sobre o Projeto
 
@@ -66,7 +68,7 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
 
 ---
 
-<h3 align="center">✨ “” ✨</h3>
+<h3 align="center">✨Venha nos conhecer atráves do Instagram✨</h3>
 
 <p align="center">
   <!-- Instagram Maria -->
