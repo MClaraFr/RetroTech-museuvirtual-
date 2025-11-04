@@ -55,7 +55,7 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff" />
-</p>---
+</p>
 
 ---
 
