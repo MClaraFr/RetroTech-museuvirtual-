@@ -63,19 +63,22 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
   <a href="https://www.instagram.com/_mariaclarafr_?igsh=MWFlZnlxN2JwaTF5MQ==" target="_blank">
     <img 
       alt="Instagram Maria" 
-      title="Siga Maria no Instagram" 
       src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
-    />
+    /><br>
+    <span style="color:white; font-family:sans-serif;">Maria Clara</span>
   </a>
+
+  &nbsp;&nbsp;&nbsp;
 
   <!-- Instagram Raiane -->
   <a href="https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky" target="_blank">
     <img 
       alt="Instagram Raiane" 
-      title="Siga Raiane no Instagram" 
       src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
-    />
+    /><br>
+    <span style="color:white; font-family:sans-serif;">Raiane Cruz</span>
   </a>
 
+  &nbsp;&nbsp;&nbsp;
 
-
+  
