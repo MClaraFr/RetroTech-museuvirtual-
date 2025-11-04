@@ -45,20 +45,11 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=fff" />
 </p>---
 
-🚀 Como Visualizar o Projeto
-
-1. Acesse o repositório no GitHub:
-👉 "Link do Repositório" (https://github.com/usuario/repositorio) (substituir pelo link real)
-
-2. Clique em “Code → Download ZIP” ou acesse via GitHub Pages, se o projeto estiver publicado.
-
-3. Abra o arquivo "index.html" em qualquer navegador.
-
 ---
 
-👩‍💻 Autora
+👩‍💻 Autoras
 
-📌 Raiane Cordeiro
+📌 Maria Clara e Raiane Cordeiro
 📚 Estudante de Análise e Desenvolvimento de Sistemas
 🏫 UniGuairacá
 📍 Guarapuava - PR
@@ -72,8 +63,15 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
   <a href="https://www.instagram.com/" target="_blank">
     <img 
       alt="Instagram" 
-      title="Siga-me no Instagram" 
-      src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
+      title="Siga Maria no Instagram" 
+      src="[https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge](https://www.instagram.com/_mariaclarafr_?igsh=MWFlZnlxN2JwaTF5MQ==)&logo=instagram&logoColor=white"
+    />
+      <!-- Instagram -->
+  <a href="https://www.instagram.com/" target="_blank">
+    <img 
+      alt="Instagram" 
+      title="Siga Raiane no Instagram" 
+      src="[https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge](https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky)&logo=instagram&logoColor=white"
     />
   </a>  <!-- GitHub -->  <a href="https://github.com/" target="_blank">
     <img 
@@ -83,16 +81,3 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
     />
   </a>
 </p>---
-
-📊 Estatísticas do Perfil
-
-<div align="center">
-  <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api?username=SeuUsuarioGitHub&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br"
-  />
-  <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SeuUsuarioGitHub&theme=onedark&layout=compact&custom_title=Tecnologias&langs_count=9"
-  />
-</div>
