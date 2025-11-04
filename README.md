@@ -56,28 +56,26 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
 
 ---
 
-<h3 align="center">✨ “Um bom design é aquele que o usuário nem percebe, apenas sente que tudo faz sentido.” ✨</h3>---
+<h3 align="center">✨ “Um bom design é aquele que o usuário nem percebe, apenas sinta que tudo faz sentido.” ✨</h3>
 
 <p align="center">
-  <!-- Instagram -->
-  <a href="https://www.instagram.com/" target="_blank">
+  <!-- Instagram Maria -->
+  <a href="https://www.instagram.com/_mariaclarafr_?igsh=MWFlZnlxN2JwaTF5MQ==" target="_blank">
     <img 
-      alt="Instagram" 
+      alt="Instagram Maria" 
       title="Siga Maria no Instagram" 
-      src="[https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge](https://www.instagram.com/_mariaclarafr_?igsh=MWFlZnlxN2JwaTF5MQ==)&logo=instagram&logoColor=white"
-    />
-      <!-- Instagram -->
-  <a href="https://www.instagram.com/" target="_blank">
-    <img 
-      alt="Instagram" 
-      title="Siga Raiane no Instagram" 
-      src="[https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge](https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky)&logo=instagram&logoColor=white"
-    />
-  </a>  <!-- GitHub -->  <a href="https://github.com/" target="_blank">
-    <img 
-      alt="GitHub" 
-      title="Veja meus repositórios" 
-      src="https://img.shields.io/badge/GitHub-6d28d9?style=for-the-badge&logo=github&logoColor=white"
+      src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
     />
   </a>
-</p>---
+
+  <!-- Instagram Raiane -->
+  <a href="https://www.instagram.com/raiane.c.cruz?igsh=eXZkODAxMDdlMmky" target="_blank">
+    <img 
+      alt="Instagram Raiane" 
+      title="Siga Raiane no Instagram" 
+      src="https://img.shields.io/badge/Instagram-6d28d9?style=for-the-badge&logo=instagram&logoColor=white"
+    />
+  </a>
+
+
+
