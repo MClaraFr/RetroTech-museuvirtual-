@@ -8,9 +8,20 @@
 
 💡 Sobre o Projeto
 
-Este projeto foi desenvolvido com o objetivo de aplicar os conhecimentos em HTML, CSS e JavaScript, criando uma interface moderna, organizada e com foco em melhorar a experiência do usuário (UX).
+O Museu da Evolução dos Computadores é um site desenvolvido com o propósito de apresentar de forma interativa e educativa a trajetória da computação ao longo do tempo.
+A proposta é recriar, em ambiente digital, a experiência de um museu virtual, permitindo ao visitante conhecer os principais marcos tecnológicos que transformaram a forma como lidamos com a informação.
 
-O site passou por um processo de reestruturação visual e funcional, com substituição de tabelas por cards, inclusão de pequenas animações e ajustes de usabilidade, proporcionando uma navegação mais intuitiva e agradável.
+O projeto é estruturado em uma linha do tempo, que guia o usuário por diferentes épocas — desde os primeiros dispositivos mecânicos de cálculo até os computadores modernos e portáteis.
+Cada etapa conta com descrições, imagens e informações históricas que ajudam a compreender como cada avanço tecnológico contribuiu para o desenvolvimento da sociedade digital que conhecemos hoje.
+
+Além do aspecto informativo, o site também busca explorar o lado visual e interativo da experiência, utilizando recursos simples de HTML, CSS e JavaScript para tornar a navegação agradável e intuitiva.
+
+---
+
+🧠 Objetivo
+
+O principal objetivo é tornar o conhecimento sobre a evolução dos computadores mais acessível e atrativo, utilizando recursos visuais e uma navegação intuitiva.
+Além de apresentar marcos históricos, o site incentiva a compreensão do impacto da tecnologia na sociedade e sua transformação constante.
 
 ---
 
@@ -28,12 +39,11 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
 ---
 
 ⚙ Funcionalidades Principais
-
-- ✅ Exibição de informações em cards expansíveis;
-- ✅ Animações suaves na abertura e fechamento dos cards;
-- ✅ Layout responsivo, adaptando-se a telas de diferentes tamanhos;
-- ✅ Navegação simplificada, com foco em usabilidade e clareza.
-
+- 🕓 Linha do tempo interativa com os principais marcos da história da computação;
+- 🖼 Exibição de imagens representando cada período histórico;
+- 📘 Textos informativos e explicativos sobre cada fase da evolução;
+- 💡 Interface simples, responsiva e fácil de navegar
+  
 ---
 
 🛠 Tecnologias Utilizadas
@@ -50,13 +60,13 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
 👩‍💻 Autoras
 
 📌 Maria Clara e Raiane Cordeiro
-📚 Estudante de Análise e Desenvolvimento de Sistemas
+📚 Estudantes de Análise e Desenvolvimento de Sistemas
 🏫 UniGuairacá
 📍 Guarapuava - PR
 
 ---
 
-<h3 align="center">✨ “Um bom design é aquele que o usuário nem percebe, apenas sinta que tudo faz sentido.” ✨</h3>
+<h3 align="center">✨ “” ✨</h3>
 
 <p align="center">
   <!-- Instagram Maria -->
