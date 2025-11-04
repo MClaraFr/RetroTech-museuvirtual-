@@ -1,7 +1,7 @@
 🌐 <h1 align="center">💻 Projeto de Site - Linguagem de Programação para Web</h1>
 
 <p align="center">
-  ✨ Desenvolvido por <strong>Raiane Cordeiro</strong> <br>
+  ✨ Desenvolvido por <strong>Maria Clara e Raiane Cordeiro</strong> <br>
   📚 Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> <br>
   🎓 Projeto acadêmico da disciplina <strong>Linguagem de Programação para Web (LPPW)</strong>
 </p>---
