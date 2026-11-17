@@ -62,7 +62,6 @@ Essas mudanças tornaram o site mais intuitivo, responsivo e visualmente agradá
 👩‍💻 Autoras
 
 📌 Maria Clara e Raiane Cordeiro
-📚 Estudantes de Análise e Desenvolvimento de Sistemas
 🏫 UniGuairacá
 📍 Guarapuava - PR
 
